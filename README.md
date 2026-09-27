@@ -2,4 +2,4 @@
 # my-first-project
 My coding journey.
 <br>
-Author __ Ankit Kumar chaurashia
+Author __ Ankit Kumar Chaurashia
