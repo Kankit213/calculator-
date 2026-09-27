@@ -21,7 +21,7 @@ a = float(int(input("enter first : ")))
 b = float(int(input("enter second : ")))
 print("avg : ", (a+b)/2)
 
-
+print("hello world")
 
 
 
