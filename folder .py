@@ -284,6 +284,103 @@ str = "i am from studying from coding with apnea collage"
 print(str.find("with"))
 
 #count
+print(str.count("from"))
+print(str.count("a"))
+
+
+#conditional conditions
+
+#if statement
+
+age = 20
+
+if age>=18:
+    print("can vote me")
+    print("can driving licence")
+    print("bye")
+
+#elif statement
+#if_elif_else condition
+
+light = "yellow"
+if "light"== "yellow":
+    print("stop")
+elif "light"== "yellow":
+    print("go")
+elif light == "green":
+    print("look")
+else:
+    print("light is broken")
+
+print("end of code")
+
+age = 16
+if age>=18:
+    print("can vote")
+else:
+    print("cannot license")
+
+
+marks = int(input("enter marks : "))
+
+if marks >= 90 :
+    grade = "A"
+elif marks >= 80 and marks < 90:
+    grade = "B"
+elif marks >= 70 and marks < 80:
+    grade = "C"
+else:
+    grade = "D"
+
+print("grade of the student ->", grade)
+
+
+#nesting
+age = 90
+
+if age >= 18:
+    if age >= 80:
+        print("cannot drive")
+    else:
+        print("can driving")
+else:
+    print("cannot drive")
+
+
+#practice ques
+
+num = int(input("enter a number : "))
+if num % 2 == 0:
+    print("even")
+else:
+    print("odd")
+
+num = int(input("enter : "))
+if num % 2 == 0:
+    print("even word")
+else:
+    print("odd word")
+
+#2
+a = int(input("enter the first number :"))
+b = int(input("enter the second number :"))
+c = int(input("enter the third number :"))
+
+if a >= b and a <= c:
+    print("a is greater : ",a)
+elif b>=c:
+    print("b is greater : ",b)
+else:
+    print("c is greater : ",c)
+
+#3
+x = int(input("enter the number : "))
+
+if x% 5 == 0:
+    print("multiple of 5")
+else:
+    print("not a multiple of 5")
+
 
 #list
 
