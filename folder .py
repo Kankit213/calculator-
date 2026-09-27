@@ -547,3 +547,10 @@ info = {
 }
 print(info)
 print(type(info))
+
+info = {
+    "hello" : "world",
+    "good" : "morning"
+}
+print(info)
+print(type(info))
