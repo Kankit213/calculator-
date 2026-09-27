@@ -1,4 +1,4 @@
 ﻿# my-first-project
 # my-first-projec
 
-author __ Ankit Kumar chaurashiya
+Author __ Ankit Kumar chaurashiya
