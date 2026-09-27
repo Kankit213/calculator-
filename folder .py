@@ -284,103 +284,6 @@ str = "i am from studying from coding with apnea collage"
 print(str.find("with"))
 
 #count
-print(str.count("from"))
-print(str.count("a"))
-
-
-#conditional conditions
-
-#if statement
-
-age = 20
-
-# if age>=18:
-#     print("can vote me")
-#     print("can driving licence")
-#     print("bye")
-#
-# #elif statement
-# #if_elif_else condition
-#
-# light = "yellow"
-# if "light"== "yellow":
-#     print("stop")
-# elif "light"== "yellow":
-#     print("go")
-# elif light == "green":
-#     print("look")
-# else:
-#     print("light is broken")
-#
-# print("end of code")
-#
-# age = 16
-# if age>=18:
-#     print("can vote")
-# else:
-#     print("cannot license")
-#
-#
-# marks = int(input("enter marks : "))
-#
-# if marks >= 90 :
-#     grade = "A"
-# elif marks >= 80 and marks < 90:
-#     grade = "B"
-# elif marks >= 70 and marks < 80:
-#     grade = "C"
-# else:
-#     grade = "D"
-#
-# print("grade of the student ->", grade)
-#
-#
-# #nesting
-# age = 90
-#
-# if age >= 18:
-#     if age >= 80:
-#         print("cannot drive")
-#     else:
-#         print("can driving")
-# else:
-#     print("cannot drive")
-#
-#
-# #practice ques
-#
-# num = int(input("enter a number : "))
-# if num % 2 == 0:
-#     print("even")
-# else:
-#     print("odd")
-#
-# num = int(input("enter : "))
-# if num % 2 == 0:
-#     print("even word")
-# else:
-#     print("odd word")
-#
-# #2
-# a = int(input("enter the first number :"))
-# b = int(input("enter the second number :"))
-# c = int(input("enter the third number :"))
-#
-# if a >= b and a <= c:
-#     print("a is greater : ",a)
-# elif b>=c:
-#     print("b is greater : ",b)
-# else:
-#     print("c is greater : ",c)
-#
-# #3
-# x = int(input("enter the number : "))
-#
-# if x% 5 == 0:
-#     print("multiple of 5")
-# else:
-#     print("not a multiple of 5")
-#
 
 #list
 
@@ -486,58 +389,58 @@ print(tup.count(4))
 
 #practice
 
-# lis = ["Alibaba","here here","yantra"]
-# print(lis)
-# print(type(lis))
-#
-# movies = []
-# mov1 = input("enter movie name : ")
-# mov2 = input("enter movie name : ")
-# mov3 = input("enter movie name : ")
-#
-# movies.append(mov1)
-# movies.append(mov2)
-# movies.append(mov3)
-# print(movies)
-#
-# list1 = [1,2,1]
-#
-# copy_list1 = list1.copy()
-# copy_list1.reverse()
-# if copy_list1==list1:
-#     print("palindrome")
-# else:
-#     print("NOT palindrome")
-#
-# list2 = ["madam","ayah","madam","sir"]
-#
-# copy_list2 = list2.copy()
-# copy_list2.reverse()
-#
-# if copy_list2 == list2 :
-#     print("palindrome")
-# else:
-#     print(" NOT palindrome")
-#
-#
-# list3 = [2,3,4,5,4,3,2,5]
-# copy_list3 = list3.copy()
-# copy_list3.reverse()
-# if copy_list3 == list3:
-#     print("palindrome")
-# else:
-#     print("NOT palindrome")
-#
-# grade = ("a","c","d","a","a","c","a")
-# print(grade.count("a"))
-#
-# list = ["a","c","d","a","a","c","a"]
-# print(list.sort())
-# print(list)
-#
-# grade = ["C","D","A","A","C","A"]
-# grade.sort()
-# print(grade)
+lis = ["Alibaba","here here","yantra"]
+print(lis)
+print(type(lis))
+
+movies = []
+mov1 = input("enter movie name : ")
+mov2 = input("enter movie name : ")
+mov3 = input("enter movie name : ")
+
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+print(movies)
+
+list1 = [1,2,1]
+
+copy_list1 = list1.copy()
+copy_list1.reverse()
+if copy_list1==list1:
+    print("palindrome")
+else:
+    print("NOT palindrome")
+
+list2 = ["madam","ayah","madam","sir"]
+
+copy_list2 = list2.copy()
+copy_list2.reverse()
+
+if copy_list2 == list2 :
+    print("palindrome")
+else:
+    print(" NOT palindrome")
+
+
+list3 = [2,3,4,5,4,3,2,5]
+copy_list3 = list3.copy()
+copy_list3.reverse()
+if copy_list3 == list3:
+    print("palindrome")
+else:
+    print("NOT palindrome")
+
+grade = ("a","c","d","a","a","c","a")
+print(grade.count("a"))
+
+list = ["a","c","d","a","a","c","a"]
+print(list.sort())
+print(list)
+
+grade = ["C","D","A","A","C","A"]
+grade.sort()
+print(grade)
 
 #dictionary in python
 
@@ -554,3 +457,128 @@ info = {
 }
 print(info)
 print(type(info))
+
+info = {
+    "hello" : "world",
+    "name" : "ankit",
+    "learn" : "coding python",
+    "learning" : ["python","java","c++","java script"],
+    "topics" : ("dict","str"),
+    "age" : 35,
+    "is adult" : True,
+    "marks" : 82.4
+}
+print(info)
+print(type(info))
+print(info["name"])
+print(info["learn"])
+print(info["learning"])
+info["name"] = "ankit kumar"
+print(info)
+info["age"] = 18
+print(info)
+info["surname"] = "chaurashiya"
+print(info)
+
+nul_dict = {"ankit kumar"}
+print(nul_dict)
+nul_dict = {}
+nul_dict["name"] = "ankit kumar"
+print(nul_dict)
+
+#nested dict
+
+student = {
+    "name": "subhash",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+
+    }
+}
+print(student)
+print(student["subject"])
+
+print(student["subject"]["phy"])
+print(student["subject"]["math"])
+
+#key method dict
+
+student = {
+    "name": "subhash",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+
+    }
+}
+
+print(student.keys())
+print(student.values())
+
+print(len(student.keys()))
+
+#values method in dict
+
+student = {
+    "name": "subhash",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+
+    }
+}
+print(student.values())
+print(student)
+print(student.values())
+
+#.items method in dict
+
+student = {
+    "name": "subhash",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+
+    }
+}
+print(student.items())
+pairs = (student.items())
+print(pairs)
+
+#get method in dict
+
+student = {
+    "name": "subhash",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+
+    }
+}
+
+print(student["name"])
+print(student.get("name"))
+print(student.get("subject"))
+
+#update method in dict
+
+student = {
+    "name": "subhash",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+
+    }
+}
+new_dict = {"city": "new town","age":18}
+student.update(new_dict)
+print(student)
+
+
