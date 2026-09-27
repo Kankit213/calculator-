@@ -229,7 +229,7 @@ str1 = "This is the first string.\nWe are my own coding."
 print(str1)
 
 str1 = "Apnea"
-str2 = "collage"
+str2: str = "collage"
 final_str = str1 + str2
 print(final_str)
 
@@ -294,93 +294,93 @@ print(str.count("a"))
 
 age = 20
 
-if age>=18:
-    print("can vote me")
-    print("can driving licence")
-    print("bye")
-
-#elif statement
-#if_elif_else condition
-
-light = "yellow"
-if "light"== "yellow":
-    print("stop")
-elif "light"== "yellow":
-    print("go")
-elif light == "green":
-    print("look")
-else:
-    print("light is broken")
-
-print("end of code")
-
-age = 16
-if age>=18:
-    print("can vote")
-else:
-    print("cannot license")
-
-
-marks = int(input("enter marks : "))
-
-if marks >= 90 :
-    grade = "A"
-elif marks >= 80 and marks < 90:
-    grade = "B"
-elif marks >= 70 and marks < 80:
-    grade = "C"
-else:
-    grade = "D"
-
-print("grade of the student ->", grade)
-
-
-#nesting
-age = 90
-
-if age >= 18:
-    if age >= 80:
-        print("cannot drive")
-    else:
-        print("can driving")
-else:
-    print("cannot drive")
-
-
-#practice ques
-
-num = int(input("enter a number : "))
-if num % 2 == 0:
-    print("even")
-else:
-    print("odd")
-
-num = int(input("enter : "))
-if num % 2 == 0:
-    print("even word")
-else:
-    print("odd word")
-
-#2
-a = int(input("enter the first number :"))
-b = int(input("enter the second number :"))
-c = int(input("enter the third number :"))
-
-if a >= b and a <= c:
-    print("a is greater : ",a)
-elif b>=c:
-    print("b is greater : ",b)
-else:
-    print("c is greater : ",c)
-
-#3
-x = int(input("enter the number : "))
-
-if x% 5 == 0:
-    print("multiple of 5")
-else:
-    print("not a multiple of 5")
-
+# if age>=18:
+#     print("can vote me")
+#     print("can driving licence")
+#     print("bye")
+#
+# #elif statement
+# #if_elif_else condition
+#
+# light = "yellow"
+# if "light"== "yellow":
+#     print("stop")
+# elif "light"== "yellow":
+#     print("go")
+# elif light == "green":
+#     print("look")
+# else:
+#     print("light is broken")
+#
+# print("end of code")
+#
+# age = 16
+# if age>=18:
+#     print("can vote")
+# else:
+#     print("cannot license")
+#
+#
+# marks = int(input("enter marks : "))
+#
+# if marks >= 90 :
+#     grade = "A"
+# elif marks >= 80 and marks < 90:
+#     grade = "B"
+# elif marks >= 70 and marks < 80:
+#     grade = "C"
+# else:
+#     grade = "D"
+#
+# print("grade of the student ->", grade)
+#
+#
+# #nesting
+# age = 90
+#
+# if age >= 18:
+#     if age >= 80:
+#         print("cannot drive")
+#     else:
+#         print("can driving")
+# else:
+#     print("cannot drive")
+#
+#
+# #practice ques
+#
+# num = int(input("enter a number : "))
+# if num % 2 == 0:
+#     print("even")
+# else:
+#     print("odd")
+#
+# num = int(input("enter : "))
+# if num % 2 == 0:
+#     print("even word")
+# else:
+#     print("odd word")
+#
+# #2
+# a = int(input("enter the first number :"))
+# b = int(input("enter the second number :"))
+# c = int(input("enter the third number :"))
+#
+# if a >= b and a <= c:
+#     print("a is greater : ",a)
+# elif b>=c:
+#     print("b is greater : ",b)
+# else:
+#     print("c is greater : ",c)
+#
+# #3
+# x = int(input("enter the number : "))
+#
+# if x% 5 == 0:
+#     print("multiple of 5")
+# else:
+#     print("not a multiple of 5")
+#
 
 #list
 
@@ -486,55 +486,64 @@ print(tup.count(4))
 
 #practice
 
-lis = ["Alibaba","here here","yantra"]
-print(lis)
-print(type(lis))
+# lis = ["Alibaba","here here","yantra"]
+# print(lis)
+# print(type(lis))
+#
+# movies = []
+# mov1 = input("enter movie name : ")
+# mov2 = input("enter movie name : ")
+# mov3 = input("enter movie name : ")
+#
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
+# print(movies)
+#
+# list1 = [1,2,1]
+#
+# copy_list1 = list1.copy()
+# copy_list1.reverse()
+# if copy_list1==list1:
+#     print("palindrome")
+# else:
+#     print("NOT palindrome")
+#
+# list2 = ["madam","ayah","madam","sir"]
+#
+# copy_list2 = list2.copy()
+# copy_list2.reverse()
+#
+# if copy_list2 == list2 :
+#     print("palindrome")
+# else:
+#     print(" NOT palindrome")
+#
+#
+# list3 = [2,3,4,5,4,3,2,5]
+# copy_list3 = list3.copy()
+# copy_list3.reverse()
+# if copy_list3 == list3:
+#     print("palindrome")
+# else:
+#     print("NOT palindrome")
+#
+# grade = ("a","c","d","a","a","c","a")
+# print(grade.count("a"))
+#
+# list = ["a","c","d","a","a","c","a"]
+# print(list.sort())
+# print(list)
+#
+# grade = ["C","D","A","A","C","A"]
+# grade.sort()
+# print(grade)
 
-movies = []
-mov1 = input("enter movie name : ")
-mov2 = input("enter movie name : ")
-mov3 = input("enter movie name : ")
+#dictionary in python
 
-movies.append(mov1)
-movies.append(mov2)
-movies.append(mov3)
-print(movies)
-
-list1 = [1,2,1]
-
-copy_list1 = list1.copy()
-copy_list1.reverse()
-if copy_list1==list1:
-    print("palindrome")
-else:
-    print("NOT palindrome")
-
-list2 = ["madam","ayah","madam","sir"]
-
-copy_list2 = list2.copy()
-copy_list2.reverse()
-
-if copy_list2 == list2 :
-    print("palindrome")
-else:
-    print(" NOT palindrome")
-
-
-list3 = [2,3,4,5,4,3,2,5]
-copy_list3 = list3.copy()
-copy_list3.reverse()
-if copy_list3 == list3:
-    print("palindrome")
-else:
-    print("NOT palindrome")
-
-grade = ("a","c","d","a","a","c","a")
-print(grade.count("a"))
-
-list = ["a","c","d","a","a","c","a"]
-print(list.sort())
-print(list)
-
-grade = ["C","D","A","A","C","A"]
-grade.sort()
-print(grade)
+info = {
+    "hello" : "world",
+    "good" : "morning"
+}
+print(info)
+print(type(info))
