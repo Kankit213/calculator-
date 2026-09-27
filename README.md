@@ -1,4 +1,4 @@
 ﻿# my-first-project
-# my-first-projec
-
-Author __ Ankit Kumar chaurashiya
+# my-first-project
+My coding journey
+Author __ Ankit Kumar chaurashia
