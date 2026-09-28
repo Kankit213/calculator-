@@ -1,5 +1,3 @@
-﻿# my-first-project
-# my-first-project
-My coding journey.
-<br>
-Author __ Ankit Kumar Chaurashia
+python calculator project : add , subtract , multiply , divide
+---
+**Author** = Ankit Kumar chaurashiya
