@@ -292,94 +292,94 @@ print(str.count("a"))
 
 #if statement
 
-age = 20
-
-if age>=18:
-    print("can vote me")
-    print("can driving licence")
-    print("bye")
-
-#elif statement
-#if_elif_else condition
-
-light = "yellow"
-if "light"== "yellow":
-    print("stop")
-elif "light"== "yellow":
-    print("go")
-elif light == "green":
-    print("look")
-else:
-    print("light is broken")
-
-print("end of code")
-
-age = 16
-if age>=18:
-    print("can vote")
-else:
-    print("cannot license")
-
-
-marks = int(input("enter marks : "))
-
-if marks >= 90 :
-    grade = "A"
-elif marks >= 80 and marks < 90:
-    grade = "B"
-elif marks >= 70 and marks < 80:
-    grade = "C"
-else:
-    grade = "D"
-
-print("grade of the student ->", grade)
-
-
-#nesting
-age = 90
-
-if age >= 18:
-    if age >= 80:
-        print("cannot drive")
-    else:
-        print("can driving")
-else:
-    print("cannot drive")
-
-
-#practice ques
-
-num = int(input("enter a number : "))
-if num % 2 == 0:
-    print("even")
-else:
-    print("odd")
-
-num = int(input("enter : "))
-if num % 2 == 0:
-    print("even word")
-else:
-    print("odd word")
-
-#2
-a = int(input("enter the first number :"))
-b = int(input("enter the second number :"))
-c = int(input("enter the third number :"))
-
-if a >= b and a <= c:
-    print("a is greater : ",a)
-elif b>=c:
-    print("b is greater : ",b)
-else:
-    print("c is greater : ",c)
-
-#3
-x = int(input("enter the number : "))
-
-if x% 5 == 0:
-    print("multiple of 5")
-else:
-    print("not a multiple of 5")
+# age = 20
+#
+# if age>=18:
+#     print("can vote me")
+#     print("can driving licence")
+#     print("bye")
+#
+# #elif statement
+# #if_elif_else condition
+#
+# light = "yellow"
+# if "light"== "yellow":
+#     print("stop")
+# elif "light"== "yellow":
+#     print("go")
+# elif light == "green":
+#     print("look")
+# else:
+#     print("light is broken")
+#
+# print("end of code")
+#
+# age = 16
+# if age>=18:
+#     print("can vote")
+# else:
+#     print("cannot license")
+#
+#
+# marks = int(input("enter marks : "))
+#
+# if marks >= 90 :
+#     grade = "A"
+# elif marks >= 80 and marks < 90:
+#     grade = "B"
+# elif marks >= 70 and marks < 80:
+#     grade = "C"
+# else:
+#     grade = "D"
+#
+# print("grade of the student ->", grade)
+#
+#
+# #nesting
+# age = 90
+#
+# if age >= 18:
+#     if age >= 80:
+#         print("cannot drive")
+#     else:
+#         print("can driving")
+# else:
+#     print("cannot drive")
+#
+#
+# #practice ques
+#
+# num = int(input("enter a number : "))
+# if num % 2 == 0:
+#     print("even")
+# else:
+#     print("odd")
+#
+# num = int(input("enter : "))
+# if num % 2 == 0:
+#     print("even word")
+# else:
+#     print("odd word")
+#
+# #2
+# a = int(input("enter the first number :"))
+# b = int(input("enter the second number :"))
+# c = int(input("enter the third number :"))
+#
+# if a >= b and a <= c:
+#     print("a is greater : ",a)
+# elif b>=c:
+#     print("b is greater : ",b)
+# else:
+#     print("c is greater : ",c)
+#
+# #3
+# x = int(input("enter the number : "))
+#
+# if x% 5 == 0:
+#     print("multiple of 5")
+# else:
+#     print("not a multiple of 5")
 
 
 #list
@@ -485,48 +485,48 @@ print(tup.count(4))
 
 
 #practice
-
-lis = ["Alibaba","here here","yantra"]
-print(lis)
-print(type(lis))
-
-movies = []
-mov1 = input("enter movie name : ")
-mov2 = input("enter movie name : ")
-mov3 = input("enter movie name : ")
-
-movies.append(mov1)
-movies.append(mov2)
-movies.append(mov3)
-print(movies)
-
-list1 = [1,2,1]
-
-copy_list1 = list1.copy()
-copy_list1.reverse()
-if copy_list1==list1:
-    print("palindrome")
-else:
-    print("NOT palindrome")
-
-list2 = ["madam","ayah","madam","sir"]
-
-copy_list2 = list2.copy()
-copy_list2.reverse()
-
-if copy_list2 == list2 :
-    print("palindrome")
-else:
-    print(" NOT palindrome")
-
-
-list3 = [2,3,4,5,4,3,2,5]
-copy_list3 = list3.copy()
-copy_list3.reverse()
-if copy_list3 == list3:
-    print("palindrome")
-else:
-    print("NOT palindrome")
+#
+# lis = ["Alibaba","here here","yantra"]
+# print(lis)
+# print(type(lis))
+#
+# movies = []
+# mov1 = input("enter movie name : ")
+# mov2 = input("enter movie name : ")
+# mov3 = input("enter movie name : ")
+#
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
+# print(movies)
+#
+# list1 = [1,2,1]
+#
+# copy_list1 = list1.copy()
+# copy_list1.reverse()
+# if copy_list1==list1:
+#     print("palindrome")
+# else:
+#     print("NOT palindrome")
+#
+# list2 = ["madam","ayah","madam","sir"]
+#
+# copy_list2 = list2.copy()
+# copy_list2.reverse()
+#
+# if copy_list2 == list2 :
+#     print("palindrome")
+# else:
+#     print(" NOT palindrome")
+#
+#
+# list3 = [2,3,4,5,4,3,2,5]
+# copy_list3 = list3.copy()
+# copy_list3.reverse()
+# if copy_list3 == list3:
+#     print("palindrome")
+# else:
+#     print("NOT palindrome")
 
 grade = ("a","c","d","a","a","c","a")
 print(grade.count("a"))
@@ -678,4 +678,126 @@ new_dict = {"city": "new town","age":18}
 student.update(new_dict)
 print(student)
 
+#set in python
 
+collection = {1,2,3,4,5}
+print(collection)
+print(type(collection))
+
+collection = {"world",1,2,3,4,4,4,2,"hello","hello"} #set me not allowed in duplicate code
+print(collection)
+print(type(collection))
+
+collection = {"world",1,2,3,4,4,4,2,"hello","hello"}
+print(len(collection))
+
+#null set in sets
+
+collection = set() #empty sets : syntax
+print(type(collection))
+
+#add method in sets #add onw element
+
+collection = set()
+collection.add(1)
+collection.add(2)
+collection.add("hello")
+print(collection)
+
+#remove method in sets # remove an element
+collection = {1,2,3,4,5,6}
+collection.remove(2)
+collection.remove(5)
+print(collection)
+print(len(collection))
+
+#clear method in sets # clear data
+
+collection = set()
+collection.add(1)
+collection.add(2)
+collection.add(3)
+collection.add(4)
+print(collection.clear())
+print(len(collection))
+
+#pop method in sets #removes a random values
+
+collection = {"world","good morning","happy"}
+(collection.pop())
+(collection.pop())
+print(collection)
+
+#union method in sets #combines both set values and return new
+set1 = {1,2,3,4,5,6}
+set2 = {2,5,7,8,9}
+print(set1.union(set2))
+
+#intersection method in sets #combines common values and return new
+
+set1 = {1,2,3,4,5,6}
+set2 = {2,5,7,8,9}
+print(set1.intersection(set2))
+
+
+#practice
+info = {
+    "table" : ["a piece of furniture","list os lists and figures"],
+    "cat" : "a small animal"
+
+}
+print(info)
+print(type(info))
+#2
+set1 = {"python","java","c++","java script"}
+set2 = {"java","python","java","c++","c"}
+
+print(set1.union(set2))
+
+subjects = {
+    "python","java","c++","java script",
+    "java","python","java","c++","c"
+}
+print(subjects)
+print(len(subjects))
+
+subject = {
+    "python","java","c++"
+}
+print(subject)
+subject = {"python","data analytics","c++"}
+print(subject)
+
+subject = {
+    "name" : "ankit",
+    "subject" : {
+        "phy" : 89,
+        "chem" : 95,
+        "math" : 90
+    }
+
+}
+print(subject)
+print(subject.get("name"))
+
+# marks = {}
+#
+# x = int(input(" enter phy :"))
+# marks.update({"phy" : x})
+#
+# x = int(input(" enter math :"))
+# marks.update({"math" : x})
+#
+# x = int(input(" enter chem :"))
+# marks.update({"chem" : x})
+# print(marks)
+
+marks = {9 , "9.0"} #"" = string
+print(marks)
+
+# method 2
+marks = {
+    ("float",9),
+    ("str",9.0)
+}
+print(marks)
