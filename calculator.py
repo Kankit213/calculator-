@@ -8,3 +8,5 @@ x = a-b
 print(x)
 x = a*b
 print(x)
+x = a/b
+print(x)
