@@ -15,3 +15,7 @@ print(x)
 print(a%b)
 x = a//b
 print(x)
+x = 25
+y = 10
+z = x//y
+print(z)
