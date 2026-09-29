@@ -19,3 +19,7 @@ x = 25
 y = 10
 z = x//y
 print(z)
+x = 20
+y = 5
+z = x*y
+print(z)
