@@ -1,4 +1,7 @@
 x = 30
 y = 40
-z = x*y
+z = x
+
+
+#calculator
 print(z)
