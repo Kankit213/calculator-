@@ -15,3 +15,6 @@ y = 300
 z = x*y
 print(z)
 print(x+y)
+
+print(x-y)
+print(x*y)
