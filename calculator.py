@@ -1,12 +1,17 @@
 x = 30
 y = 40
-z = x
-
-x = 45
-y = 45
 z = x*y
 print(z)
-
-
-#calculator
+x = 50
+y = 30
+z = x*y
 print(z)
+x = 30
+y = 30
+z = x*y
+print(z)
+x = 30
+y = 300
+z = x*y
+print(z)
+print(x+y)
