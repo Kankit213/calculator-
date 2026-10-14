@@ -257,7 +257,7 @@ while True :
         print("danyavadd",name,"!tumne",count,"calculation ki" )    
         break
     else:
-        print(" galat option! , 1 ya 2 chune ")          
+        print(" galat option! , 1 ya 2 chune ")           
 
 
 

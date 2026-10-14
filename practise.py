@@ -694,118 +694,200 @@
 
 
         
-print("-"*30)
-print("    ankit's calculator")
-print("-"*30)
+# print("-"*30)
+# print("    ankit's calculator")
+# print("-"*30)
         
-name = input("enter your name : ")
-print(" nmaste", name)
+# name = input("enter your name : ")
+# print(" nmaste", name)
 
-count = 0
-while True:
-    print("\n1 . substract(-)")
-    print("2 . exit ")
-    choice = input("option chuno :  ")
-    if choice == "1":
-        print("\n------substract-------")
-        print("1. do numbers ")
-        print("2. teen numbers ")
-        print("3 . kai numbers (n barr)")
-        print("4. kai numbers (done likhne tak )")
-        print("5 . wapas jao ")
-        sub = input ("sub option chuno :  ")
+# count = 0
+# while True:
+#     print("\n1 . substract(-)")
+#     print("2 . exit ")
+#     choice = input("option chuno :  ")
+#     if choice == "1":
+#         print("\n------substract-------")
+#         print("1. do numbers ")
+#         print("2. teen numbers ")
+#         print("3 . kai numbers (n barr)")
+#         print("4. kai numbers (done likhne tak )")
+#         print("5 . wapas jao ")
+#         sub = input ("sub option chuno :  ")
 
-        if sub == "1":
-            x = float(input("first numbers : "))
-            y = float(input("second numbers : "))
-            print("="*30)
-            print(x, "-", y,"=", x-y)
-            print("="*30)
-            count +=1
-        elif sub == "2":
-            x = float(input("first number : "))
-            y = float(input("second numbers : "))  
-            z = float(input("third numbers : "))
-            print("="*30)
-            print("total", x-y-z)
-            print("="*30)
-            count+=1
-        elif sub == "3":
-            n = int(input("kitne numbers addd kar ne hai : "))
-            total = 0
-            for i in range(n):
-                num = float(input("numbers daloo : "))
-                total+=1
-            print("="*30)
-            print("total: ", total) 
-            print("="*30)
-            count+=1
-        elif sub =="4" :
-            total = 0
-            while True:
-                value = input("numbers dalo(rokne ke liye done:  )")  
-                if value=="done":
-                    break
-                total = float(value)
-            print("="*30)
-            print("total", total) 
-            print("="*30)
-            count +=1
-        elif sub =="5":
-            print("mai menu pe wapas ja raha hu ---- ")   
-        else:
-            print("galat sub option")
-    elif choice == "2":
-        print("danyavadd",name,"!tumne",count,"calculation ki")
-        break
-    else:
-        print("galat option 1 ya 2 chuno ")         
+#         if sub == "1":
+#             x = float(input("first numbers : "))
+#             y = float(input("second numbers : "))
+#             print("="*30)
+#             print(x, "-", y,"=", x-y)
+#             print("="*30)
+#             count +=1
+#         elif sub == "2":
+#             x = float(input("first number : "))
+#             y = float(input("second numbers : "))  
+#             z = float(input("third numbers : "))
+#             print("="*30)
+#             print("total", x-y-z)
+#             print("="*30)
+#             count+=1
+#         elif sub == "3":
+#             n = int(input("kitne numbers addd kar ne hai : "))
+#             total = 0
+#             for i in range(n):
+#                 num = float(input("numbers daloo : "))
+#                 total+=1
+#             print("="*30)
+#             print("total: ", total) 
+#             print("="*30)
+#             count+=1
+#         elif sub =="4" :
+#             total = 0
+#             while True:
+#                 value = input("numbers dalo(rokne ke liye done:  )")  
+#                 if value=="done":
+#                     break
+#                 total = float(value)
+#             print("="*30)
+#             print("total", total) 
+#             print("="*30)
+#             count +=1
+#         elif sub =="5":
+#             print("mai menu pe wapas ja raha hu ---- ")   
+#         else:
+#             print("galat sub option")
+#     elif choice == "2":
+#         print("danyavadd",name,"!tumne",count,"calculation ki")
+#         break
+#     else:
+#         print("galat option 1 ya 2 chuno ")         
     
         
        
-print("=" * 30)
-print("   ANKIT'S substraction CALCULATOR")
-print("=" * 30)
+# print("=" * 30)
+# print("   ANKIT'S substraction CALCULATOR")
+# print("=" * 30)
 
-name = input("Tumhara naam kya hai?  ")
-print("Namaste", name, "!")
+# name = input("Tumhara naam kya hai?  ")
+# print("Namaste", name, "!")
 
-count = 0   # kitni calculations hui
+# count = 0   # kitni calculations hui
+
+# while True:
+    
+#     print("2. Subtract (-)")
+#     print("3. Exit")
+#     choice = input("Option chuno: ")
+
+#     if choice == "1":
+#         x = float(input("Pehla number: "))
+#         y = float(input("Doosra number: "))
+#         z = float(input("tisra numbers : "))
+#         print("-" * 30)
+#         print(x, "-", y,"-", z, "=", x - y - z)
+#         print("-" * 30)
+#         count += 1
+
+#     elif choice == "2":
+#         x = float(input("Pehla number: "))
+#         y = float(input("Doosra number: "))
+#         print("-" * 30)
+#         print(x, "-", y, "=", x - y)
+#         print("-" * 30)
+#         count += 1
+
+#     elif choice == "3":
+#         print("Dhanyavaad", name, "! Tumne", count, "calculations ki.")
+#         break
+
+#     else:
+#         print("Galat option! 1 se 3 ke beech chuno.")
+
+#         print("Galat option! 1 ya 2 chuno.")
+
+
+
+print("-"*30)
+print("    ankit multiply calc ")
+print("-"*30)
+
+name = input("enter your name  : ")
+print("namaste : ",name)
+count = 0
 
 while True:
-    
-    print("2. Subtract (-)")
-    print("3. Exit")
-    choice = input("Option chuno: ")
+    print(" |n multiply(*)")
+    print("2 . exit")
+    choice = input("enter your option : ")
 
     if choice == "1":
-        x = float(input("Pehla number: "))
-        y = float(input("Doosra number: "))
-        z = float(input("tisra numbers : "))
-        print("-" * 30)
-        print(x, "-", y,"-", z, "=", x - y - z)
-        print("-" * 30)
-        count += 1
+        print("|n1--------multiply-------")
+        print("1 . add do number : ")
+        print("2 . add teen numbers : ")
+        print("3 . multiply karo (n barr)")
+        print("4 . multiplyn karo (done likhne tak : )")
+        print("wapas jao ")
+        sub = input ("sub option chuno : ")
 
-    elif choice == "2":
-        x = float(input("Pehla number: "))
-        y = float(input("Doosra number: "))
-        print("-" * 30)
-        print(x, "-", y, "=", x - y)
-        print("-" * 30)
-        count += 1
-
-    elif choice == "3":
-        print("Dhanyavaad", name, "! Tumne", count, "calculations ki.")
-        break
-
-    else:
-        print("Galat option! 1 se 3 ke beech chuno.")
-
-        print("Galat option! 1 ya 2 chuno.")
-
-
-              
+        if sub =="1" :
+                a = float(input("enter first number : ") )  
+                b = float(input("enter second number : "))
+                print("-"*30)
+                print(a,"*",b,"=",a*b)
+                print("-"*30)
+                count+=1
+        elif sub =="2" :
+            a = float(input("enter first numbers : "))
+            b = float(input("enter second numbers : "))
+            c = float(input("enter third numbers : "))
         
+            print("-"*30)
+            print("result",a*b*c)
+            print("-"*30)
+            count+=1 
+        elif sub == "3":
+             n = int(input("kitne numbers multiply karne hai : ")) 
+             total = float(input ("enter first number : "))
+             for i in range (n-1):
+                  num = float(input(f"Number {i + 2} daalo: "))
+                  total*=num
+                  print("-"*30)
+                  print("result",total)
+                  print("-"*30)
+                  count+=1
+        elif sub == "4" :
+             while True:
+                  value = input("number daloo  done likne tak : ")
+                  if value == "done":
+                       break
+                  total *= float(value)
+                  print("-"*30)
+                  print("result : ",total)
+                  print("-"*30)
+                  count+=1
+        elif sub =="5"  :
+             print("mai wapas ja raha hu ... ")   
+        else:
+             print("galat option.. try again ")
+    elif choice == "2":
+         print("danyavadd",name,"!tumne",count,"calculation ki ")
+         break
+    else:
+         print("galat option 1 ya 2 choose karo")    
+
+
+                    
+                    
+
+
+        
+            
+
+   
+    
+    
+    
+                 
+
+
 
 
