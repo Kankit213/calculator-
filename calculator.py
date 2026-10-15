@@ -328,6 +328,7 @@ while True:
         break
     else:
         print("galat option 1 ya 2 chunoo ")
+        
 
                 
                       
