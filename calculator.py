@@ -259,6 +259,88 @@ while True :
     else:
         print(" galat option! , 1 ya 2 chune ")           
 
+# devision 
+
+print("-"*30)
+print("    ankit divide calc")
+print("-"*30)
+
+name = input("enter your name : ")
+print("namste",name)
+
+count = 0
+
+while True:
+    print("\n 1 . -devide(/)")
+    print("2 . exit ")
+    choice = input("enter your choice : ")
+
+    if choice =="1":
+        print("\n 1 --------division----------")
+        print("1. do numbers ")
+        print("2 . teen numbers")
+        print("3 numbers dalo (n barr)")
+        print("4. numbers dalo(done likhne tak)")
+        print("5. wapas jao")
+        sub = input("sub option chuno : ")
+
+        if sub == "1":
+            x = float(input("enter first numbers : "))
+            y = float(input("enter second numbers : "))
+            print("-"*30)
+            print(x,"/",y,"=",x/y)
+            print("-"*30)
+            count+=1
+        elif sub =="2" :
+            x = float(input("enter first numbers : "))
+            y = float(input("enter second numbers : "))
+            z= float(input("enter third numbers : "))
+            print("-"*30)   
+            print("result : ",x/y/z)
+            print("-"*30)
+            count+=1
+        elif sub =="3"    :
+            n = int(input("kitne number devide karne hai : "))
+            total = float(input("enter first number : "))
+            for i in range(n-1):
+                num = float(input(f"Number {i + 2} daalo: "))
+                total/=num
+                print("-"*30)
+                print("result : ",total)
+                print("-"*30)
+                count+=1
+        elif sub == "4"  :
+            while True:
+                value = input("numbers dalo(done likhne tak : )")
+                if value == "done":
+                    break
+                total /= float(value)
+                print("-"*30)
+                print("result",total)
+                print("-"*30)
+                count+=1
+        elif sub == "5":
+            print("mai wapas ja raha hu .. ")     
+        else:
+            print("galat option.. try again ")   
+    elif choice == "2"  :
+        print("danyavadd",name,"!tumne",count,"calculation ki")   
+        break
+    else:
+        print("galat option 1 ya 2 chunoo ")
+
+                
+                      
+
+
+
+
+
+
+
+
+
+
 
 
 
